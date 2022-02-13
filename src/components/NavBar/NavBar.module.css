@@ -1,0 +1,26 @@
+.nav__bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1;
+  height: 2.5rem;
+}
+
+.navBar__bg {
+  transition: background-color 450ms ease-in-out;
+    background-color: #111;
+}
+
+.logo {
+  position: fixed;
+  left: 1rem;
+  width: 8rem;
+}
+
+.avatar {
+  position: fixed;
+  right: 1rem;
+  width: 3rem;
+}
